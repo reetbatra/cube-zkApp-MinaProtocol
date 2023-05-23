@@ -42,7 +42,7 @@ console.log('state after init:', num0.toString());
 // ----------------------------------------------------
 
 const txn1 = await Mina.transaction(senderAccount, () => {
-  zkAppInstance.update(Field(9));
+  zkAppInstance.update(Field(27));
 });
 await txn1.prove();
 await txn1.sign([senderKey]).send();
@@ -67,7 +67,7 @@ console.log('state after txn2:', num2.toString());
 // ----------------------------------------------------
 
 const txn3 = await Mina.transaction(senderAccount, () => {
-  zkAppInstance.update(Field(81));
+  zkAppInstance.update(Field(19683));
 });
 await txn3.prove();
 await txn3.sign([senderKey]).send();
