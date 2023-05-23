@@ -1,3 +1,3 @@
-import { Add } from './Add.js';
+import { Cube } from './Cube.js';
 
-export { Add };
+export { Cube };
