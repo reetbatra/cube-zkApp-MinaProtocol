@@ -10,7 +10,7 @@ If the number n is 2, the user can only change n to 8 (its cube, 2^3=8)
 
 # Read about Mina Protocol here
 
-[Blog](https://reet.hashnode.dev/mina-protocol-uncovered-developing-your-own-zkapp)
+[Blog to learn about zero-knowledge and Mina Protocol](https://reet.hashnode.dev/mina-protocol-uncovered-developing-your-own-zkapp)
 
 
 # Mina zkApp: 01 Hello World
